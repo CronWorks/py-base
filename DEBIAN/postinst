@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cd /usr/local/src/py-base
+python setup.py install
+
+echo "done" # so that $? == 0 even if 'pip uninstall' fails
+

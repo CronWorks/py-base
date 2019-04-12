@@ -1,0 +1,16 @@
+Package: py-base
+Version: 4.84
+Section: cws
+Priority: optional
+Architecture: all
+Essential: no
+Depends: python,
+         python-lxml,
+         python-git,
+         python-pip,
+         python-psutil,
+         python-setuptools
+Installed-Size: 1
+Maintainer: J. Luke Scott <luke@cron.works>
+Provides: py-base
+Description: [cws] core stuff used in python scripts

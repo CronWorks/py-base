@@ -1,0 +1,5 @@
+#!/bin/sh
+
+pip uninstall --yes --quiet py_base
+echo "done" # so that $? == 0 even if 'pip uninstall' fails
+
